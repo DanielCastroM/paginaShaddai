@@ -1,0 +1,24 @@
+.soon {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(23, 27, 28, 1) 0%, rgba(175, 241, 111, 0.13209033613445376) 64%, rgba(226, 119, 83, 0) 93%, rgba(255, 255, 255, 1) 100%);
+    min-height: 80vh;
+    position: relative;
+    z-index: 0;
+    img,
+    .circle,
+    h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    img {
+        z-index: 1;
+    }
+    .circle {
+        z-index: -1;
+    }
+    h2 {
+        top: 25%;
+    }
+}
