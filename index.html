@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;600&family=Secular+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Document</title>
 </head>
 
@@ -17,23 +18,28 @@
         <div class="nav-container">
             <nav>
                 <h1 id="logo">Shaddai</h1>
-                <ul>
-                    <li>
-                        <a href="#home">Inicio</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
                     </li>
-                    <li>
-                        <a class="#features" href="">Productos</a>
+                    <li class="nav-item">
+                        <a class="#features nav-link" href="">Productos</a>
                     </li>
-                    <li>
-                        <a class="" href="">Clientes</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Clientes</a>
                     </li>
-                    <li>
-                        <a href="">Nosotros</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Nosotros</a>
                     </li>
-                    <li>
-                        <a class="order" href="#soon">Contacto</a>
+                    <li class="nav-item">
+                        <a class="order nav-link" href="#soon">Contacto</a>
                     </li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
         </div>
         <section class="home">
@@ -93,5 +99,6 @@
         </footer>
     </main>
 </body>
+<script src="./script/script.js"></script>
 
 </html>
