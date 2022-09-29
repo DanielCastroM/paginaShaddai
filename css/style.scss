@@ -56,6 +56,14 @@ a {
 @import "features";
 @import "soon";
 @import "footer";
+@media screen and (max-width: 1400px) {
+    nav {
+        a {
+            font-size: 90%;
+        }
+    }
+}
+
 @media screen and (max-width: 1200px) {
     html {
         font-size: 50%;
